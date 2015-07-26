@@ -2599,9 +2599,36 @@ Scheme
 			}
 		}
 
+		
+		ComfortaaRegular12	
+		{
+			"1"
+			{
+				"name"		“Comfortaa”
+				"tall"		"12”
+				"antialias" "1"
+			}
+		}
+		
+
+		}
+
+		
+		ComfortaaRegular16	
+		{
+			"1"
+			{
+				"name"		“Comfortaa”
+				"tall"		"16”
+				"antialias" "1"
+			}
+		}	
+	
 	}
 
-	//
+	
+	//CUSTOM HUD FONT
+
 	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types
@@ -5117,7 +5144,46 @@ Scheme
 			{
 				"range" "0x0000 0x0451"
 			}
+			
 		}			
-		"7" "resource/ocra.ttf"
-	}
-}
+		"7" 
+		
+		
+{   
+		    
+"font" “resource/fonts/Comfortaa-Bold.ttf”
+			"name" “Comfortaa Bold”
+
+
+
+	        
+		
+		}			
+		“8” 
+		
+
+		{
+	
+		    "font" “resource/fonts/Comfortaa-Light.ttf”
+			"name" “Comfortaa Light”
+
+
+
+
+
+
+	        
+		
+		}			
+		“9” 
+		
+
+		{
+
+			"font" “resource/fonts/Comfortaa-Regular.ttf”
+			"name" “Comfortaa”
+             
+		
+		}
+		
+     }
